@@ -1,0 +1,200 @@
+#header {	
+	background-color: #e1ecf7;
+	padding: 50px;
+	margin-top: -50px;
+	margin-right: -70px;
+}
+
+
+.logo{
+	/*width: 20px;
+	height: 40px;*/
+	/*margin-left: 200px;*/
+	/*margin-right: -50px;*/
+	/*margin-bottom: -20px;*/
+	/*width: auto;
+	height: auto;*/
+	display: inline;
+	float: left;
+	background-color: #e1ecf7;
+	margin-left: -15px;
+
+}	
+
+.logo img {
+	width: 200px;
+	height: 50px;
+	margin-left: 208px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	background-color: #e1ecf7;
+}
+
+.nav {
+	width: 150px;
+	display: inline;	
+	margin-bottom: 10px;
+	/*margin-right: -5px;*/
+	/*margin-left: 250px;*/
+	margin-top: 2px;
+	padding: 0;	
+	list-style: none; 
+	background-color: #e1ecf7;	
+
+}
+
+ul {
+	
+	/*margin: 5px;*/
+	list-style: none;
+	
+	margin-left: 800px; /*changes the horizontal position on the page of the navigation bar*/
+	background-color: #e1ecf7;
+
+}
+
+nav ul li {
+	
+	/*margin: -5px;*/
+	padding: 0px;
+	/*margin-top: -20px;
+	margin-bottom: -20px;
+	*/
+	font-family: 'Chivo', sans-serif;
+	font-size: 12px;
+	letter-spacing: 2px;
+	background-color: #e1ecf7;
+}
+
+a {
+	text-decoration: none; 
+	color: black;
+	float: left;
+	margin: 6px;
+	margin-top: -5px;
+	/*padding: 10px 20px;*/
+	padding-top: 15px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-bottom: 15px;
+	background-color: #e1ecf7;
+	
+}
+
+ul li a:hover {
+	color: white;
+	background-color: black;
+	text-decoration: none;
+	margin: 6px;
+	width: auto;
+	height: auto;
+	margin-top: -5px;
+	padding-top: -50px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-bottom: -15px;
+	margin-bottom: -15px; /*changes the spacing between the bottome and the padding*/
+	
+}
+
+.bgimage{
+	background: url("/Users/admin/first-full-layout/agency/background.jpg");	
+	height: 1000px;
+	width: 1500px;
+	overflow: auto; /*This will allow any content that is not visible to automatically insert scroll bar*/
+}
+
+h1 {
+	padding-top: 15px;	
+	text-align: left;
+	color: white;
+	margin-left: 245px;
+	font-family: 'Chivo', sans-serif;
+	letter-spacing: 2px;
+
+}
+span {
+	color: red;
+}
+
+.portfolio {
+	padding-top: 30px;
+	/*display: inline-block;*/
+	/*float: left;*/
+	/*position: relative;*/
+	margin-left: 250px;
+		
+}
+
+.row {
+	width: 900px;
+	/*display: block;*/
+	/*margin: 0px auto;*/
+
+	display: inline; /*keeps 3 images per row*/
+}
+
+
+
+.portitem{	
+	display: block;
+	float: left;
+	width: 350px;
+	height: 230px;
+	padding-bottom: 70px; /*This changes the spacing between the rows*/
+	padding-right: 30px; /*This changes the spacing between each portfolio box*/
+}
+
+
+.portitem img {
+	width: 350px;
+	height: 225px;
+	/*display: inline-block;*/
+	padding-top: 20px;
+
+}
+.textbox {
+	width: 350px;
+	/*clear: both;*/
+	margin: 0px;
+	padding-bottom: 5px;
+	margin-bottom: 30px;
+}
+
+.textbox a{
+	position: relative;
+	background-color: white;
+	margin-top: -4px; /*changes the spacing between the bottome of the portfolio images and the top of the text area*/
+	margin-bottom: 0px;
+	margin-left: 0px; /*this aligns the left side of the textbox with the left side of the image*/
+	margin-right: 0px;
+	text-align: center;
+	width: 344px; /*change this to change the width of the textbox relative to the image*/
+	height: 5px;
+	color: #b4cedb;
+	font-size: 16px;
+	padding-top: 10px; /*changes the height the of white textbox area underneath the image*/
+	padding-bottom: 30px; /*changes the height the of white textbox area underneath the image*/
+	
+}
+
+#arrow-up {
+	width: 0px;
+	height: 5px;
+	border-left: 0px solid transparent;
+	border-right: 0px solid transparent;
+	border-bottom: 5px solid white;
+	float: right;
+	/*margin-right: 90px;
+	position: fixed;
+	bottom: 10px;
+	right: 5px;*/
+	z-index: 200;
+	overflow: auto;
+	
+
+	
+}
+
+
